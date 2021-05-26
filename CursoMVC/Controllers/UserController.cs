@@ -42,6 +42,45 @@ namespace CursoMVC.Controllers
             return View(Users);
         }
 
+        public ActionResult EditUser(string id)
+        {
+            var User = db.Users.Single(x => x.Cedula == id);
+            return View(User);
+        }
+
+        [HttpPost]
+        public ActionResult EditUser(string cedula, FormCollection collection)
+        {
+            var User = db.Users.Single(x => x.Cedula == cedula);
+            if (TryUpdateModel(User))
+            {
+                db.SaveChanges();
+                return RedirectToAction("ListUsers");
+            }
+
+            return View(User);
+        }
+
+        public ActionResult DeleteUser(string id)
+        {
+            var User = db.Users.Single(x => x.Cedula == id);
+            return View(User);
+        }
+
+        [HttpPost]
+        public ActionResult DeleteUser(string id, FormCollection collection)
+        {
+            var User = db.Users.Single(x => x.Cedula == id);
+            try
+            {
+                db.Users.Remove(User);
+                db.SaveChanges();
+                return RedirectToAction("ListUsers");
+            }catch (Exception e)
+            {
+                return View();
+            }
+        }
 
     }
 }
