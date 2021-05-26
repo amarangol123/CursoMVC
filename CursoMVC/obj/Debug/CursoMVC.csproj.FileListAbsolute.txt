@@ -74,3 +74,7 @@ C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\obj\Debug\CursoMVC.csproj.
 C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\obj\Debug\CursoMVC.csproj.CopyComplete
 C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\obj\Debug\CursoMVC.dll
 C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\obj\Debug\CursoMVC.pdb
+C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\bin\EntityFramework.dll
+C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\bin\EntityFramework.xml
+C:\Users\jlondgom\Desktop\Curso MVC\CursoMVC\CursoMVC\bin\EntityFramework.SqlServer.xml
